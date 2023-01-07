@@ -2,6 +2,11 @@
   margin: 0;
   font-family: "Open Sans";
 }
+
+/* section */
+section {
+  margin-top: 130px;
+}
 /* header and navigation style. */
 .nav-style {
   font-weight: 800;
@@ -73,7 +78,6 @@ main {
 /* About Section */
 
 .about {
-  margin-top: 130px;
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
@@ -85,6 +89,7 @@ main {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 35px;
+  text-align: center;
 }
 
 .section-descriptioon {
@@ -92,7 +97,6 @@ main {
   text-align: center;
   font-size: 18px;
   margin-bottom: 30px;
-  
 }
 
 .about-info-con {
@@ -110,4 +114,109 @@ main {
   font-weight: 700;
   font-size: 20px;
   color: #474747;
+}
+
+/* What i do section */
+.what-i-do-des {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+.whatDescription{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+/* Resume section */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.resume .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+}
+
+.resume .description {
+  color: #757575;
+}
+
+.resume-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* contact section  */
+.contact-bg-color{
+  background: #fff8f3;
+
+}
+
+.contact .contact-title {
+  text-align: left;
+}
+
+.contact {
+  display: flex;
+  gap: 100px;
+  padding: 130px 200px;
+
+  /* background: #fff8f3; */
+}
+input {
+  height: 20px;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-top: 24px;
+  width: 100%;
+  border: 0;
+  padding: 18px 30px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact-description {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.footer{
+  background: #fff8f3;
 }
